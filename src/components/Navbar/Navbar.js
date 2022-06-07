@@ -14,10 +14,13 @@ const Navbar = () => {
               <a className="nav-link active" aria-current="page" href="/#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/404">Link</a>
+              <a className="nav-link" href="/404">Link404</a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/404">Link</Link>
+              <Link className="nav-link" to="/404">Link404</Link>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/oops">non-existent</a>
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="/#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -24,7 +24,7 @@ const Home = () => {
       <button className="btn btn-danger" onClick={getPersonajes}>Obtener Personajes</button>
       <section className="row">
         {
-          personajes.length >0 && personajes.map(personaje => <CardPersonajes image={personaje.image} name={personaje.name} title={personaje.title} species={personaje.species} url={personaje.url} status={personaje.status} key={personaje.id} />)
+          personajes.length >0 && personajes.map(personaje => <CardPersonajes image={personaje.image} name={personaje.name} title={personaje.title} species={personaje.species} url={personaje.url} status={personaje.status} key={personaje.id} id={personaje.id} />)
         }
       </section>
     </main>
